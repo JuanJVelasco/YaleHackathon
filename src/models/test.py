@@ -30,7 +30,7 @@ while True:
     max_freq = np.argmax(fft)
     
     fps = cap.get(cv2.CAP_PROP_FPS)
-    bpm = (max_freq * fps / roi_w)/100
+    bpm = (max_freq * fps * 60 / roi_w)/100
     
     mean_amp = np.mean(fft)
     max_amp = np.max(fft)
