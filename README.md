@@ -1,2 +1,2 @@
 # YaleHackathon
-## Mental Health Monitoring and Logging
+### Mental Health Monitoring and Logging
