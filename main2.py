@@ -146,3 +146,4 @@ if __name__ == '__main__':
     thread_cam = threading.Thread(target=gen_frames)
     thread_cam.start()
     app.run(host='0.0.0.0', threaded=True, debug=True)
+    
